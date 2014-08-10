@@ -13,13 +13,12 @@ package gles2
 import "C"
 import "unsafe"
 
-type(
-	Sync C.GLsync
-	DEBUGPROC C.GLDEBUGPROC
+type (
+	Sync         C.GLsync
+	DEBUGPROC    C.GLDEBUGPROC
 	DEBUGPROCARB C.GLDEBUGPROCARB
 	DEBUGPROCKHR C.GLDEBUGPROCKHR
 	DEBUGPROCAMD C.GLDEBUGPROCAMD
-
 )
 
 // String converts from a OpenGL *uint8 string to a Go string.
